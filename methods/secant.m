@@ -1,5 +1,5 @@
 %Secant Method%
-function secant(p0, p1, TOL, N0, f)
+function secant(0, 1, @(x)2*x+3*cos(x)-e^x, 10^(-5), 1000)
     i = 2;
     fprintf('P(0) = %d\n', p0)
     fprintf('P(1) = %d\n', p1)
